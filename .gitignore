@@ -1,1 +1,42 @@
-__pychache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Output files
+output/
+results/
+data/output/
+models/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+*.pydevproject
+
+# Other
+*.bak
+*.swp
+.DS_Store
