@@ -3,7 +3,11 @@ import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
-nltk.download('stopwords')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 from nltk.corpus import wordnet as wn
 import contractions
