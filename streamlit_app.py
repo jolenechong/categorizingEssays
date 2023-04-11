@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="AI: Categorizing Essays", page_icon="📈")
+
 st.title("Categorize Your Essays")
 st.write("Categorize essays with my AI model, originally developed for tuition centers to categorize well-written student essays for easier reference.")
 st.subheader("How It Works")
