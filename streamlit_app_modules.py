@@ -1,4 +1,10 @@
 # cleaning functions
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('stopwords')
+
 from nltk.corpus import wordnet as wn
 import contractions
 import re
