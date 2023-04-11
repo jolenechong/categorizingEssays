@@ -1,0 +1,4 @@
+nltk==3.8.1
+contractions==0.1.73
+gensim==4.3.0
+pandas==1.4.3
